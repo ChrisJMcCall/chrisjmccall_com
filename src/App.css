@@ -1,0 +1,120 @@
+/* Webfont: Lato-Medium */@font-face {
+  font-family: 'LatoWebMedium';
+  src: url('fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+       url('fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Regular */@font-face {
+  font-family: 'LatoWebRegular';
+  src: url('fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Light */@font-face {
+  font-family: 'LatoWebLight';
+  src: url('fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+       url('fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.App {
+  font-family: "LatoWebLight";
+  font-size: 16px;
+  line-height: 1.6875em;
+  margin: auto;
+}
+
+.App a,
+.App a:visited {
+  color: #212121;
+}
+
+/*
+  ###########################################################
+  Header
+  ###########################################################
+*/
+
+.Header {
+  background: #FFEB6F;
+}
+
+.Header-content {
+  margin: auto;
+  max-width: 900px;
+}
+
+.Header h1 {
+  background:url('images/logo.svg');
+  float: left;
+  width: 136px;
+  height: 71px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 40px;
+  left: 0px;
+}
+
+.Header h2 {
+  font-size: 1.6875em;
+  padding: 0;
+  margin: 0;
+}
+
+.Header-intro {
+  padding: 86px 0 60px 0;
+  margin-left: 230px;
+}
+
+.Header-intro p {
+}
+
+.Header-intro a {
+  background: url('images/resume.svg') no-repeat center right 10px;
+  border: 2px solid #212121;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 48px 7px 18px;
+}
+
+.Header-social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 122px;
+}
+
+/*
+  ###########################################################
+  ContentGroup
+  ###########################################################
+*/
+.Contentgroup {
+  margin: auto;
+  width: 900px;
+}
+
+.Contentgroup h4 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 0 0 50px;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>HeaderIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="46.1953829%" x2="28.6222365%" y2="51.6266841%" id="linearGradient-1">
+            <stop stop-color="#F7B6B6" offset="0%"></stop>
+            <stop stop-color="#EA6D6D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-63.000000, -399.000000)">
+            <g id="Journey" transform="translate(63.000000, 397.000000)">
+                <g id="HeaderIcon" transform="translate(0.000000, 2.000000)">
+                    <g id="iconBG">
+                        <circle id="Oval" fill-opacity="0.55" fill="#FB9E79" cx="20" cy="20" r="20"></circle>
+                        <circle id="Oval-Copy-27" fill-opacity="0.49" fill="#79FBB9" cx="20" cy="20" r="20"></circle>
+                        <circle id="Oval-Copy-29" fill="#BBE1B4" cx="20" cy="20" r="20"></circle>
+                    </g>
+                    <g id="Icons-/-Compass" transform="translate(9.000000, 9.000000)">
+                        <g id="Compass">
+                            <path d="M0,7 C0,3.6862915 4.4771525,1 10,1 C15.5228475,1 20,3.6862915 20,7 L20,14 C20,17.8659932 15.5228475,21 10,21 C4.4771525,21 0,17.8659932 0,14 L0,7 Z" id="Body-Copy-2" fill="#FFFFFF"></path>
+                            <path d="M2.5,6 L2.5,13 C2.5,16.5438895 6.72301494,19.5 12,19.5 C17.2769851,19.5 21.5,16.5438895 21.5,13 L21.5,6 C21.5,3.03041842 17.282636,0.5 12,0.5 C6.71736403,0.5 2.5,3.03041842 2.5,6 Z" id="Body-Copy" stroke="#4B4A4A"></path>
+                            <path d="M2.5,6.5 C3.79752604,10.1666667 6.96419271,12 12,12 C17.0358073,12 20.202474,10.1666667 21.5,6.5" id="Line" stroke="#4B4A4A" stroke-linecap="round"></path>
+                            <path d="M3.8671875,5.06567383 C5.80029297,7.34301758 8.59761556,8.48168945 12.2591553,8.48168945 C15.920695,8.48168945 18.6180827,7.34301758 20.3513184,5.06567383" id="Line-Copy" stroke="#4B4A4A" stroke-linecap="round" transform="translate(12.109253, 6.773682) rotate(-180.000000) translate(-12.109253, -6.773682) "></path>
+                            <polygon id="Arrow" fill="url(#linearGradient-1)" points="11.5827168 7.17329765 17.5131836 7.49658203 13.1677845 10.2196176 6.46972656 9.79150391"></polygon>
+                            <path d="M6,5.14308607 L6,6.22545035" id="Line-2" stroke="#4B4A4A" stroke-linecap="square"></path>
+                            <path d="M18,5.14038086 L18,5.81680298" id="Line-2-Copy" stroke="#4B4A4A" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

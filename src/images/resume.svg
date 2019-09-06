@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="27px" viewBox="0 0 22 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Resume</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7292B9" offset="0%"></stop>
+            <stop stop-color="#608B99" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#7292B9" offset="0%"></stop>
+            <stop stop-color="#608B99" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#7292B9" offset="0%"></stop>
+            <stop stop-color="#608B99" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons-/-Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="0" y="2" width="20" height="25"></rect>
+        <rect id="Rectangle" stroke="#4B4A4A" x="2.5" y="0.5" width="19" height="24"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="5" y="4" width="4" height="1"></rect>
+        <rect id="Rectangle-Copy" fill="url(#linearGradient-2)" x="5" y="6" width="14" height="1"></rect>
+        <rect id="Combined-Shape" fill="url(#linearGradient-3)" x="5" y="10" width="14" height="2"></rect>
+        <path d="M19,15 L17,15 L17,16 L5,16 L5,14 L19,14 L19,15 Z" id="Rectangle-Copy-6" fill="url(#linearGradient-3)"></path>
+        <path d="M19,19 L18,19 L18,20 L5,20 L5,18 L19,18 L19,19 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+    </g>
+</svg>
