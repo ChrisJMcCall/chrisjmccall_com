@@ -1,6 +1,6 @@
 language: node_js
 script:
-- npm build
+- npm run-script build
 addons:
   ssh_known_hosts: chrisjmccall.com
 deploy:
