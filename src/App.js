@@ -9,7 +9,7 @@ class App extends Component {
         <ContentGroup 
         title="Journey" 
         icon="images/compass.svg"
-        content=""
+        content={<p>Work history will go here.</p>}
         />
         <ContentGroup 
         title="Projects" 
@@ -17,6 +17,10 @@ class App extends Component {
         content={
           <HrefList 
           links={[
+            {href:'https://github.com/ChrisJMcCall/chrisjmccall_com', 
+            title:'ChrisJMcCall.com',
+            description: 'The code behind this website.'
+            },
             {href:'https://github.com/ChrisJMcCall/BaseNetcoreWebApi', 
             title:'Base Web API',
             description: 'A starting point for a Web API using Netcore, Entity framework, and JWT for authentication.'

@@ -118,3 +118,8 @@
   line-height: 40px;
   padding: 0 0 0 50px;
 }
+
+.Contentgroup ul {
+  list-style-type: none;
+  padding: 0;
+}
