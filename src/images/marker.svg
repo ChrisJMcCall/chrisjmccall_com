@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="35px" viewBox="0 0 11 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Marker</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-117.000000, -521.000000)">
+            <g id="Journey" transform="translate(63.000000, 397.000000)">
+                <g id="Timeline" transform="translate(0.000000, 73.000000)">
+                    <g id="Marker" transform="translate(55.000000, 51.000000)">
+                        <rect id="Rectangle" fill="#3A3A3A" x="4" y="0" width="1" height="24"></rect>
+                        <circle id="Oval" stroke="#3A3A3A" stroke-width="2" cx="4.5" cy="29.5" r="4.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

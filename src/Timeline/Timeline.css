@@ -2,15 +2,17 @@
   border: 1px solid #3A3A3A;
   border-radius: 3px;
   padding: 0;
+  margin: 0 0 50px 0;
 }
 
 .Timeline ul li {
-  background: rgb(0,0,0,0.33);
-  border: 1px solid rgb(0,0,0); 
+  background: #abaaa0;
+  border: 1px solid #abaaa0; 
   border-radius: 2px;
   display: inline-block;
   height: 43px;
   margin: 4px 0 4px 4px;
+  vertical-align: top;
 }
 
 .Timeline ul li.selected {
@@ -19,5 +21,35 @@
 }
 
 .Timeline ul li span {
-  visibility: hidden;
+  display: block;
+  font-size: .8em;
+  line-height: 1em;
+  padding-top: 10px;
+  position: relative;
+  top: 49px;
+  text-align: center;
+  visibility: inherit;
+}
+.Timeline ul li.selected span {
+  background-image: url('../images/marker.svg');
+  background-position: center -10px;
+  background-repeat: no-repeat;
+  font-size: 1.1em;
+  padding-top: 25px;
+}
+
+.Timeline h4,
+.Timeline h5 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.Timeline h4 {
+  font-size: 1.5em;
+}
+
+.Timeline h5 {
+  font-size: 1em;
+  margin-top: -10px;
 }

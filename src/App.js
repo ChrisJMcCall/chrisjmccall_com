@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Timeline from './Timeline/Timeline';
 import './App.css';
+import Timeline from './Timeline/Timeline';
 
 class App extends Component {
   render() {
