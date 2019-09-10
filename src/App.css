@@ -52,6 +52,9 @@
 
 .Header {
   background: #FFEB6F;
+  background-image: url('images/rule.svg');
+  background-repeat: repeat-x;
+  background-position: bottom 1px right 0;
 }
 
 .Header-content {
@@ -158,6 +161,10 @@ ul.HrefList li a {
   position: relative;
   text-decoration: none;
   top: -2em;
+}
+
+ul.HrefList li p {
+  clear: right;
 }
 
 ul.HrefList span.tag {
