@@ -18,16 +18,23 @@ class App extends Component {
         content={
           <HrefList 
           links={[
-            {href:'https://github.com/ChrisJMcCall/chrisjmccall_com', 
+            {href:'https://github.com/ChrisJMcCall/chrisjmccall_com',
+            hrefLabel:'view code',
+            type:'Website',
             title:'ChrisJMcCall.com',
-            description: 'The code behind this website.'
+            description: 'The code behind this website.',
+            tags: ['react.js']
             },
-            {href:'https://github.com/ChrisJMcCall/BaseNetcoreWebApi', 
+            {href:'https://github.com/ChrisJMcCall/BaseNetcoreWebApi',
+            hrefLabel:'view code',
+            type:'Web API',
             title:'Base Web API',
-            description: 'A starting point for a Web API using Netcore, Entity framework, and JWT for authentication.'
+            description: 'A starting point for a Web API using Netcore, Entity framework, and JWT for authentication.',
+            tags: ['netcore']
             }]}
           />}
         />
+        <div className="Footer"></div>
       </div>
     );
   }
@@ -74,8 +81,11 @@ class ContentGroup extends Component {
 class HrefList extends Component {
   listItems = this.props.links.map((link, index) => {
     return (<li key={index}>
+      <h5>{link.title}</h5>
+      <h6>{link.type}</h6>
+      <a href={link.href}>{link.hrefLabel}</a>
       <p>{link.description}</p>
-      <a href={link.href}>{link.title}</a>
+      {link.tags.map((item)=><span key={index+'t'} className="tag">{item}</span>)}
     </li>)
   });
 

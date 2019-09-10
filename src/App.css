@@ -107,7 +107,7 @@
   ###########################################################
 */
 .Contentgroup {
-  margin: auto;
+  margin: 0 auto 100px auto;
   width: 900px;
 }
 
@@ -116,10 +116,61 @@
   text-transform: uppercase;
   height: 40px;
   line-height: 40px;
+  margin: 50px 0 50px 0;
   padding: 0 0 0 50px;
 }
 
 ul.HrefList {
   list-style-type: none;
   padding: 0;
+}
+
+ul.HrefList li {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+ul.HrefList h5,
+ul.HrefList h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+ul.HrefList h5 {
+  font-size: 1.125em;
+}
+
+ul.HrefList h6 {
+  border-bottom: 1px solid #3a3a3a;
+  color: #7B7B7B;
+  font-size: .875em;
+  line-height: 1.4em;
+}
+
+ul.HrefList li a {
+  border: 2px solid #212121;
+  float: right;
+  line-height: 1.4em;
+  font-size: .875em;
+  padding: 0 5px 0 5px;
+  position: relative;
+  text-decoration: none;
+  top: -2em;
+}
+
+ul.HrefList span.tag {
+  background: #FAD075;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: .875em;
+  line-height: 1.4em;
+  padding: 0 5px 1px 5px;
+}
+
+.Footer {
+  clear: both;
+  padding-bottom: 50px;
 }
