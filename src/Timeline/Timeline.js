@@ -56,7 +56,7 @@ class Timeline extends Component {
     
     return(props.items.map((item, index) => {
         let itemWidth = (new Date(item.end).getTime() - new Date(item.start).getTime())*scale;
-        return <li className={(props.selected === item)? 'selected':''} key={index} style={{width: itemWidth-7 }} onMouseOver={()=> props.hover(item)}><span>{new Date(item.start).getFullYear()}&nbsp;-&nbsp;{new Date(item.end).getFullYear()}</span></li>
+        return <li className={(props.selected === item)? 'selected':''} key={index} style={{width: itemWidth-5 }} onMouseOver={()=> props.hover(item)}><span>{new Date(item.start).getFullYear()}&nbsp;-&nbsp;{new Date(item.end).getFullYear()}</span></li>
       })
     );
   }
