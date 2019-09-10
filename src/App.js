@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Timeline from './Timeline/Timeline';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
         <ContentGroup 
         title="Journey" 
         icon="images/compass.svg"
-        content={<p>Work history will go here.</p>}
+        content={<Timeline />}
         />
         <ContentGroup 
         title="Projects" 
@@ -79,7 +80,7 @@ class HrefList extends Component {
   });
 
   render() {
-    return (<ul>{this.listItems}</ul>);
+    return (<ul className="HrefList">{this.listItems}</ul>);
   }
 }
 

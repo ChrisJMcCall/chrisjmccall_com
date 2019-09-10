@@ -1,0 +1,23 @@
+.Timeline ul {
+  border: 1px solid #3A3A3A;
+  border-radius: 3px;
+  padding: 0;
+}
+
+.Timeline ul li {
+  background: rgb(0,0,0,0.33);
+  border: 1px solid rgb(0,0,0); 
+  border-radius: 2px;
+  display: inline-block;
+  height: 43px;
+  margin: 4px 0 4px 4px;
+}
+
+.Timeline ul li.selected {
+  background-color: #fff;
+  border-color: #3A3A3A;
+}
+
+.Timeline ul li span {
+  visibility: hidden;
+}
