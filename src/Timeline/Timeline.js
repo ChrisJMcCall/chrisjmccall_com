@@ -42,13 +42,19 @@ class Timeline extends Component {
     this.containerRef = React.createRef();
   }
 
-  componentDidMount() {
-    this.setState({
-      timelineWidth: this.containerRef.current.clientWidth
-    });
+  resize = () => this.setState({
+    timelineWidth: this.containerRef.current.clientWidth
+  });
 
+  componentDidMount() {
+    this.resize();
+    window.addEventListener('resize', this.resize);
   }
   
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize)
+  }
+
   ListItem(props) {
     let beginMillis = new Date(props.items[0].start).getTime();
     let endMillis = new Date(props.items[props.items.length-1].end).getTime();

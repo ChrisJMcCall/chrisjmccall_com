@@ -64,10 +64,11 @@
 
 .Header h1 {
   background:url('images/logo.svg');
+  background-repeat: no-repeat;
   float: left;
   width: 136px;
   height: 71px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   position: relative;
   top: 40px;
@@ -117,7 +118,7 @@
 .Contentgroup h4 {
   font-size: 2.5em;
   text-transform: uppercase;
-  height: 40px;
+  /* height: 40px; */
   line-height: 40px;
   margin: 50px 0 50px 0;
   padding: 0 0 0 50px;
@@ -131,7 +132,7 @@ ul.HrefList {
 ul.HrefList li {
   float: left;
   width: 45%;
-  margin-right: 5%;
+  margin: 0 5% 3em 0;
 }
 
 ul.HrefList h5,
@@ -180,4 +181,36 @@ ul.HrefList span.tag {
 .Footer {
   clear: both;
   padding-bottom: 50px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 900px) {
+  .Header-content {
+    padding: 0 5%;
+  }
+
+  .Header h1 {
+    /* background-position: center; */
+    float: none;
+    width: 100%;
+  }
+
+  .Header-social {
+    top: 33px;
+    left: 191px;
+  }
+
+  .Header-intro {
+    margin: 0;
+  }
+
+  .Contentgroup {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  ul.HrefList li {
+    width: 90%;
+  }
 }
