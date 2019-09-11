@@ -76,6 +76,7 @@ class Timeline extends Component {
           items={this.timelineItems} 
           fitWidth={this.state.timelineWidth}
           hover={(item)=> this.setState({selectedItem:item})}
+          onTouchMove={(item)=> this.setState({selectedItem:item})}
           ></this.ListItem>
         </ul>
         {/*For SEO I will probably change this to be css driven rather than actually changing the DOM.*/}
