@@ -62,7 +62,7 @@ class Timeline extends Component {
     
     return(props.items.map((item, index) => {
         let itemWidth = (new Date(item.end).getTime() - new Date(item.start).getTime())*scale;
-        return <li className={(props.selected === item)? 'selected':''} key={index} style={{width: itemWidth-5 }} onMouseOver={()=> props.hover(item)}><span>{new Date(item.start).getFullYear()}&nbsp;-&nbsp;{new Date(item.end).getFullYear()}</span></li>
+        return <li className={(props.selected === item)? 'selected':''} key={index} style={{width: itemWidth-5 }} onClick={()=> props.clicked(item)} onMouseOver={()=> props.hover(item)}><span>{new Date(item.start).getFullYear()}&nbsp;-&nbsp;{new Date(item.end).getFullYear()}</span></li>
       })
     );
   }
@@ -75,8 +75,8 @@ class Timeline extends Component {
           selected={this.state.selectedItem}
           items={this.timelineItems} 
           fitWidth={this.state.timelineWidth}
+          clicked={(item)=> this.setState({selectedItem:item})}
           hover={(item)=> this.setState({selectedItem:item})}
-          onClick={(item)=> this.setState({selectedItem:item})}
           ></this.ListItem>
         </ul>
         {/*For SEO I will probably change this to be css driven rather than actually changing the DOM.*/}
