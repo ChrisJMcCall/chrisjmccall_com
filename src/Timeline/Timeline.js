@@ -8,28 +8,50 @@ class Timeline extends Component {
       end: '2011-06-01',
       title: 'Sr. Web Designer',
       location: 'Royall & Company',
-      details: 'Provide user interface and UX design, usability analysis, and screen design. Manage project timelines for deadlines and deployment dates. Contribute to UI usability direction and implementation. Testing for improved marketing. Collaboration on development of new web products and interactions. Ensure cross-platform quality of web applications.'
+      details: [
+        'Manage the complete SDLC of a global-scale SaaS product.',
+        'Architect solutions using Microsoft Azure cloud services.',
+        'Develop CI/CD processes to ensure code quality and establish devops.',
+        'Coordinate system migrations, upgrades, and third-party integrations.',
+        'Lead the design and product development of internal software.']
     },
     {
       start: '2011-06-01',
       end: '2012-11-01',
       title: 'Front End Developer',
       location: 'eProcessingNetwork',
-      details: 'Build wireframes and prototypes for user interface and experience. Design production-ready screens and all UI elements. Write PERL modules and Javascript to extend functionality of site based on wireframes. Collaborate with customer service and sales teams to optimize the user experience. Write extensions for multiple existing eCommerce plugins to support the eProcessing payment gateway.'
+      details: [
+        'Develop and manage the deployment of 8 mobile applications to the Apple App Store and Google Play Store.',
+        'Develop native and html5 based applications for iOS and Android.',
+        'Develop mobile applications that communicate with custom BLE 4.0 hardware.',
+        'Design wireframes and interfaces for mobile, desktop, and web applications.',
+        'Manage product roadmaps between desktop, web, mobile and hardware teams.'
+        ]
     },
     {
       start: '2012-11-01',
       end: '2016-11-01',
       title: 'Mobile/Front End Developer',
       location: 'World GPS Solutions',
-      details: 'Developed and managed the deployment of 8+ mobile applications to the Apple App Store and Google Play Store. Design wireframes and interfaces for mobile, desktop, and web applications. Coordinate with desktop, web, mobile and hardware teams to ensure project goals are achieved.'
+      details: [
+        'Develop UI wireframes and UX prototypes. ',
+        'Design production-ready screens, UI elements, and prepare assets for development.',
+        'Write PERL and Javascript modules for the core web product. ',
+        'Collaborate with customer service and sales teams to meet customer needs. ',
+        'Develop extensions for eCommerce plugins to support the eProcessing payment gateway.'
+        ]
     },
     {
       start: '2016-11-01',
       end: Date.now(),
       title: 'Sr. Full Stack Developer',
       location: 'CPaT Global',
-      details: 'Managed the development, deployment and migration of a global-scale software platform to Microsoft Azure cloud services. Lead the design and product development of all legacy and new software. Develop processes to ensure code quality. Coordinated system migrations and upgrades.'
+      details: [
+        'Provide UI/UX design, and usability analysis.',
+        'Plan and deliver projects for strict deployment dates.',
+        'Create and deploy tests for results-driven marketing.',
+        'Perform cross-platform/browser tests for web applications.'
+      ]
     }
   ];
 
@@ -70,7 +92,7 @@ class Timeline extends Component {
   render() {
     return (
       <div className="Timeline">
-        <ul ref={this.containerRef}>
+        <ul className="Timeline" ref={this.containerRef}>
           <this.ListItem 
           selected={this.state.selectedItem}
           items={this.timelineItems} 
@@ -82,7 +104,9 @@ class Timeline extends Component {
         {/*For SEO I will probably change this to be css driven rather than actually changing the DOM.*/}
         <h4>{this.state.selectedItem.title}</h4>
         <h5>{this.state.selectedItem.location}</h5>
-        <p>{this.state.selectedItem.details}</p>
+        <ul className="ExperienceDescription">
+          {this.state.selectedItem.details.map((item)=><li>{item}</li>)}
+        </ul>
       </div>
     );
   }
