@@ -32,7 +32,7 @@ class Timeline extends Component {
       start: '2012-11-01',
       end: '2016-11-01',
       title: 'Mobile/Front End Developer',
-      location: 'World GPS Solutions',
+      location: 'Advanced Tracking Technologies',
       details: [
         'Develop UI wireframes and UX prototypes. ',
         'Design production-ready screens, UI elements, and prepare assets for development.',

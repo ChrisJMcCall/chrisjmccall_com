@@ -49,7 +49,7 @@ class Header extends Component {
         <div className="Header-intro">
           <h2>I&rsquo;m Chris McCall and I love creating things</h2>
           <p>I have been creating software for over 10 years on the web, desktop, and mobile devices. Most notably I have developed global-scale core business platforms, real-time data analytic applications, eCommerce solutions, and national-scale marketing campaigns.</p>
-          <a href="files/chrisjmccall_resume.docx">Get my r&eacute;sum&eacute;</a>
+          <a href="files/chrisjmccall_resume.pdf">Get my r&eacute;sum&eacute;</a>
         </div>
         <ul className="Header-social">
           <li><a href="https://github.com/ChrisJMcCall">github</a></li>
