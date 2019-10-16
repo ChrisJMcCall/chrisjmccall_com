@@ -47,10 +47,11 @@ class Timeline extends Component {
       title: 'Sr. Full Stack Developer',
       location: 'CPaT Global',
       details: [
-        'Provide UI/UX design, and usability analysis.',
-        'Plan and deliver projects for strict deployment dates.',
-        'Create and deploy tests for results-driven marketing.',
-        'Perform cross-platform/browser tests for web applications.'
+        'Manage the complete SDLC of a global-scale SaaS product using .Net core and modern Javascript frameworks.',
+        'Architect solutions using Microsoft Azure cloud services such as App Service, Functions, Logic Apps, Runbooks, Webjobs, Storage Accounts, SQL, and many others.',
+        'Develop CI/CD and devops processes through automation with Azure and Jenkins.',
+        'Coordinate migration of legacy applications to Azure, upgrades, and third-party integrations.',
+        'Lead the UI/UX design and product development all software.'
       ]
     }
   ];
